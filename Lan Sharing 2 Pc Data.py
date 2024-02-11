@@ -3,6 +3,7 @@ import socketserver
 import socket
 import os
 
+
 class SimpleFileServer(http.server.SimpleHTTPRequestHandler):
 
     def do_GET(self):
